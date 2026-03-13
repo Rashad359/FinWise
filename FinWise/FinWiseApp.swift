@@ -11,7 +11,9 @@ import SwiftUI
 struct FinWiseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                SplashView()
+            }
         }
     }
 }

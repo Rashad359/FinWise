@@ -10,9 +10,22 @@
 		DC4E24772F63D1BF0061D4DB /* FinWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DC4439632F63FE0B00A6BD52 /* Exceptions for "FinWise" folder in "FinWise" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DC4E24762F63D1BF0061D4DB /* FinWise */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DC4E24792F63D1BF0061D4DB /* FinWise */ = {
+		DC44394D2F63FE0B00A6BD52 /* FinWise */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DC4439632F63FE0B00A6BD52 /* Exceptions for "FinWise" folder in "FinWise" target */,
+			);
 			path = FinWise;
 			sourceTree = "<group>";
 		};
@@ -32,7 +45,7 @@
 		DC4E246E2F63D1BF0061D4DB = {
 			isa = PBXGroup;
 			children = (
-				DC4E24792F63D1BF0061D4DB /* FinWise */,
+				DC44394D2F63FE0B00A6BD52 /* FinWise */,
 				DC4E24782F63D1BF0061D4DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DC4E24792F63D1BF0061D4DB /* FinWise */,
+				DC44394D2F63FE0B00A6BD52 /* FinWise */,
 			);
 			name = FinWise;
 			packageProductDependencies = (
@@ -256,6 +269,7 @@
 				DEVELOPMENT_TEAM = 66D29S5VUM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinWise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +302,7 @@
 				DEVELOPMENT_TEAM = 66D29S5VUM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinWise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
