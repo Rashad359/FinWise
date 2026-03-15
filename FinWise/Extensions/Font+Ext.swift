@@ -9,4 +9,5 @@ import SwiftUI
 
 extension Font {
     static let poppinsLarge = Font.custom("Poppins-Regular", size: 52)
+    static let poppinsMid = Font.custom("Poppins-Regular", size: 30)
 }
