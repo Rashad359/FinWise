@@ -21,9 +21,7 @@ struct LogInView: View {
                 Spacer()
                 
                 Text("Welcome")
-                    .font(.poppinsMid)
-                    .fontWeight(.semibold)
-                    .padding(.top, 65)
+                    .launchText()
                 
                 VStack {
                     

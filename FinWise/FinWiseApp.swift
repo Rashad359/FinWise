@@ -13,6 +13,7 @@ struct FinWiseApp: App {
         WindowGroup {
             NavigationStack {
                 SplashView()
+                    .preferredColorScheme(.light)
             }
         }
     }
