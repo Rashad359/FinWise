@@ -26,7 +26,6 @@ struct LogInView: View {
                 VStack {
                     
                     Spacer()
-                    //Login and password view
                     inputFields
                     
                     Spacer()
